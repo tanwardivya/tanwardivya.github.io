@@ -266,6 +266,7 @@ section {
 
 #about {
   position: relative;
+  background-color: azure;
 }
 
 .about-containers {
@@ -328,6 +329,29 @@ section {
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
+.work-sub-title {
+  color: rgb(8, 8, 8);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+.work-year {
+  color: rgb(27, 134, 76);
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 0.75rem;
+}
+.work-details {
+  text-align: left;
+  display: inline-block;
+  margin-top: 1rem;
+}
+.work-details ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  font-weight: 10;
+  text-align: left;
+}
 
 .experience-details-container {
   display: flex;
@@ -354,11 +378,26 @@ article {
 article .icon {
   cursor: default;
 }
+/* industry SECTION */
+#industry {
+  position: relative;
+}
+.industry-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.industry-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
 /* PROJECTS SECTION */
 
 #projects {
   position: relative;
+  margin-top: 30vh;
 }
 
 .color-container {
@@ -381,7 +420,6 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
-
 
 /* CONTACT */
 
